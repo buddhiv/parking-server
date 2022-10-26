@@ -1,0 +1,63 @@
+{
+    "users": [
+        { "id": "user-1", "name": "Buddhi Vikasitha", "email": "user-1@parkingapp.com", "password": "$2b$12$.VmkBjaBO0hZjIozHggwcOtGyJvTWGptg.hfuONDGyLg1J6B2TQVm" }
+    ],
+    "parkingAreas": [
+        {
+            "id": 1,
+            "name": "Area 1",
+            "parkingSlots": [
+                { "id": 1, "name": "Slot 1", "location": { "row": 1, "column": 1 } },
+                { "id": 2, "name": "Slot 2", "location": { "row": 1, "column": 2 } },
+                { "id": 3, "name": "Slot 3", "location": { "row": 1, "column": 3 } },
+                { "id": 4, "name": "Slot 4", "location": { "row": 1, "column": 4 } },
+                { "id": 5, "name": "Slot 5", "location": { "row": 2, "column": 1 } },
+                { "id": 6, "name": "Slot 6", "location": { "row": 2, "column": 2 } },
+                { "id": 7, "name": "Slot 7", "location": { "row": 2, "column": 3 } },
+                { "id": 8, "name": "Slot 8", "location": { "row": 2, "column": 4 } },
+                { "id": 9, "name": "Slot 9", "location": { "row": 3, "column": 1 } },
+                { "id": 10, "name": "Slot 10", "location": { "row": 3, "column": 2 } },
+                { "id": 11, "name": "Slot 11", "location": { "row": 3, "column": 3 } },
+                { "id": 12, "name": "Slot 12", "location": { "row": 3, "column": 4 } },
+                { "id": 13, "name": "Slot 13", "location": { "row": 4, "column": 1 } },
+                { "id": 14, "name": "Slot 14", "location": { "row": 4, "column": 2 } },
+                { "id": 15, "name": "Slot 15", "location": { "row": 4, "column": 3 } },
+                { "id": 16, "name": "Slot 16", "location": { "row": 4, "column": 4 } }
+                
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Area 2",
+            "parkingSlots": [
+                { "id": 17, "name": "Slot 1", "location": { "row": 1, "column": 1 } },
+                { "id": 18, "name": "Slot 2", "location": { "row": 1, "column": 2 } },
+                { "id": 19, "name": "Slot 3", "location": { "row": 1, "column": 3 } },
+                { "id": 20, "name": "Slot 4", "location": { "row": 1, "column": 4 } },
+                { "id": 21, "name": "Slot 5", "location": { "row": 2, "column": 3 } },
+                { "id": 22, "name": "Slot 6", "location": { "row": 2, "column": 4 } },
+                { "id": 23, "name": "Slot 7", "location": { "row": 3, "column": 1 } },
+                { "id": 24, "name": "Slot 8", "location": { "row": 3, "column": 2 } },
+                { "id": 25, "name": "Slot 9", "location": { "row": 4, "column": 3 } },
+                { "id": 26, "name": "Slot 10", "location": { "row": 4, "column": 4 } }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Area 3",
+            "parkingSlots": [
+                { "id": 27, "name": "Slot 1", "location": { "row": 1, "column": 1 } },
+                { "id": 28, "name": "Slot 2", "location": { "row": 1, "column": 2 } },
+                { "id": 29, "name": "Slot 3", "location": { "row": 1, "column": 3 } },
+                { "id": 30, "name": "Slot 4", "location": { "row": 1, "column": 4 } },
+                { "id": 31, "name": "Slot 5", "location": { "row": 2, "column": 4 } },
+                { "id": 32, "name": "Slot 6", "location": { "row": 3, "column": 4 } },
+                { "id": 33, "name": "Slot 7", "location": { "row": 4, "column": 1 } },
+                { "id": 34, "name": "Slot 8", "location": { "row": 4, "column": 4 } }
+            ]
+        }
+    ],
+    "userParking": [
+        { "userId": "user-1", "parkingAreaId": 1, "parkingSlotId": 2 }
+    ]
+}
