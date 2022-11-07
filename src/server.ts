@@ -6,7 +6,6 @@ import cors from 'cors';
 
 import 'express-async-errors';
 
-import EnvVars from '@configurations/EnvVars';
 import router from './routes/router';
 
 
@@ -18,23 +17,14 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cookieParser(EnvVars.cookieProps.secret));
 
 app.use(cors());
 
-// Show routes called in console during development
-if (EnvVars.nodeEnv === 'dev') {
-    app.use(morgan('dev'));
-}
+app.use(morgan('dev'));
 
-// Security
-if (EnvVars.nodeEnv === 'production') {
-    app.use(helmet());
-}
+app.use(helmet());
 
-console.log('start api');
 // Add APIs
 app.use('/api', router);
-console.log('end api');
 
 export default app;
